@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+  font-family: 'Lora', serif;
+}
+
+:root {
+  --color-green-principal: #3e9e54 ;
+  --white : white;
+  --gray-with-opacity : rgba(128, 128, 128, 0.158);
+  --color-green-with-opacity : rgba(0, 128, 0, 0.836);
+  --green-dark :#128547;
+  --black-with-opacity : rgba(0, 0, 0, 0.342);
+  --black : black;
+  --white : white; 
+  --green : green;
+  --gray:#737373;
+  --green-light : #3E9E54;
+  --gold : gold;
+  --green-secundary: #dcf9c4be;
+  --black-with-opacity-50 : rgba(0, 0, 0, 0.5);
+  --black-with-opacity-3 : rgba(0, 0, 0, 0.219);
+}

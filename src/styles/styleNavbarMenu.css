@@ -1,0 +1,99 @@
+/*the component NavBarMenu*/
+/*root*/
+
+.navBarMenu {
+    background-color: var(--color-green-principal);
+    padding: .1rem 0;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 1px 2.5px 5px 2px var(--black-with-opacity);
+    border-bottom: 2px solid var(--green-dark);
+}
+.img-logoEspam {
+    width: 60px;
+    height: 60px;
+}
+.cont-logoUsusario {
+    padding: .3rem;
+    cursor: pointer;
+    background-color: var(--green-dark);
+    border-radius: 7px;
+}
+.img-logoUsuario {
+    width: 42px;
+}
+.container-navBar {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.select-navBar {
+    display: flex;
+    gap: .5rem;
+    
+}
+.span-navBar {
+    display: flex;
+    justify-content: center;
+    font-size: .85rem;
+    color: var(--white);
+}
+.selec-naBvar-options {
+    cursor: pointer;
+    border: 1px solid var(--gray-with-opacity);
+    background-color: var(--color-green-principal);
+    color: var(--white);
+    padding: .1rem .2rem;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 2px var(--color-green-with-opacity);
+}
+.selec-naBvar-options:hover {
+    color: var(--color-green-principal);
+    background-color: var(--white);
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    font-weight: bold;
+    position: relative;
+}
+
+
+/*animation sga*/
+.pulsate-fwd {
+	-webkit-animation: pulsate-fwd 2s infinite ;
+	        animation: pulsate-fwd 2s infinite ;
+}
+@-webkit-keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes pulsate-fwd {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
