@@ -41,11 +41,11 @@
 }
 .name-university_position {
     position: absolute;
-    top: 9.80rem;
+    top: 11.80rem;
 }
 .cont-logoMfl_position {
     position: absolute;
-    top: 25.5rem;
+    top: 22.5rem;
 }
 .cont-background {
     background-color: var(--green-light);
@@ -63,7 +63,7 @@
 }
 .cont-sms {
     position:relative;
-    top: 6.3rem;
+    top: 7.5rem;
     border: 1px solid var(--black);
     padding: .5rem;
     color: var(--white);
@@ -79,6 +79,7 @@
     text-shadow: 1px 2px 1px var(--black);
 }
 .cont-news {
+    z-index:1;
     border:1px solid var(--black-with-opacity-50);
     display:inline-block;
     padding: .7rem;
@@ -96,6 +97,11 @@
         position: absolute;
         display: none;
 }
+.cont-pagePrincipal {
+        padding-bottom: 5rem;
+        position: relative;
+        bottom: 11.3rem;
+    }
 
 /*animation  text name university*/
 .focus-in-expand-fwd {

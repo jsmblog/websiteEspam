@@ -2,6 +2,7 @@
 /*root*/
 
 .navBarMenu {
+    z-index:1;
     background-color: var(--color-green-principal);
     padding: .1rem 0;
     position: fixed;
